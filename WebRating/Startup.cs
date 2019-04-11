@@ -29,7 +29,7 @@ namespace WebRating
             {
                 options.InputFormatters.Insert(0, new RawJsonBodyInputFormatter());
             }
-            ).SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            ).SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
 
             services.AddScoped<RatingEngine>();
