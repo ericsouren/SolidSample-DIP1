@@ -7,7 +7,7 @@ namespace WebRating.Controllers
     [ApiController]
     public class RateController : ControllerBase
     {
-        private readonly RatingEngine _ratingEngine;
+        private readonly RatingEngine _ratingEngine; 
         private readonly StringPolicySource _policySource;
 
         public RateController(RatingEngine ratingEngine,
@@ -15,6 +15,7 @@ namespace WebRating.Controllers
         {
             _ratingEngine = ratingEngine;
             _policySource = policySource;
+            //1
         }
 
         [HttpPost()]
